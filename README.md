@@ -8,14 +8,14 @@ Program terminal berbasis bahasa C untuk mengkonversi berbagai satuan ukuran sec
 
 Universitas Pendidikan Indonesia Kampus Purwakarta
 
-| Peran     | Nama                            | Tugas                                          |
-| --------- | ------------------------------- | ---------------------------------------------- |
-| Ketua     | Ahmad Faiq Zidane     (2502542) | Setup repo, menu utama & struktur main.c       |
-| Anggota 1 | Rhesiana Putri Dewi   (2504374) | Konversi Suhu (Celcius ke Fahrenheit/Kelvin)   |
-| Anggota 2 | Nadilla Sri Ambarwati (2501637) | Konversi Jarak (Kilometer ke Meter/Centimeter) |
-| Anggota 3 | Haikal Kamil                    | Konversi Berat (Kilogram ke Gram/Pons)         |
-| Anggota 4 | Muhammad Ikhsan Akbar           | Konversi Waktu (Jam ke Menit/Detik)            |
-| Anggota 5 | Michael Sin                     | Tampilan UI & antarmuka menu                   |
+| Peran     | Nama                   | NIM        | Tugas                                          |
+| --------- | -----------------------|----------- | ---------------------------------------------- |
+| Ketua     | Ahmad Faiq Zidane      | (2502542)  | Setup repo, menu utama & struktur main.c       |
+| Anggota 1 | Rhesiana Putri Dewi    | (2504374)  | Konversi Suhu (Celcius ke Fahrenheit/Kelvin)   |
+| Anggota 2 | Nadilla Sri Ambarwati  | (2501637)  | Konversi Jarak (Kilometer ke Meter/Centimeter) |
+| Anggota 3 | Haikal Kamil           |            | Konversi Berat (Kilogram ke Gram/Pons)         |
+| Anggota 4 | Muhammad Ikhsan Akbar  |            | Konversi Waktu (Jam ke Menit/Detik)            |
+| Anggota 5 | Michael Sin            |            | Tampilan UI & antarmuka menu                   |
 
 ---
 
@@ -60,10 +60,10 @@ kalkulator.exe
 
 ```
 main
-├── fitur-konversi-suhu     (Muhammad Ikhsan Akbar)
-├── fitur-konversi-jarak    (Haikal Kamil)
-├── fitur-konversi-berat    (Nadilla Sri Ambarwati)
-├── fitur-konversi-waktu    (Rhesiana Putri Dewi)
+├── fitur-konversi-suhu     (Rhesiana Putri Dewi)
+├── fitur-konversi-jarak    (Nadilla Sri Ambarwati)
+├── fitur-konversi-berat    (Haikal Kamil)
+├── fitur-konversi-waktu    (Muhammad Ikhsan Akbar)
 └── fitur-tampilan-menu     (Michael Sin)
 ```
 
