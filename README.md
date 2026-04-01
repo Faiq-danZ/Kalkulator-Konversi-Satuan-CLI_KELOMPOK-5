@@ -8,14 +8,14 @@ Program terminal berbasis bahasa C untuk mengkonversi berbagai satuan ukuran sec
 
 Universitas Pendidikan Indonesia Kampus Purwakarta
 
-| Peran     | Nama                        | Tugas                                          |
-| --------- | --------------------------- | ---------------------------------------------- |
-| Ketua     | Ahmad Faiq Zidane (2502542) | Setup repo, menu utama & struktur main.c       |
-| Anggota 1 | Muhammad Ikhsan Akbar       | Konversi Suhu (Celcius ke Fahrenheit/Kelvin)   |
-| Anggota 2 | Haikal Kamil                | Konversi Jarak (Kilometer ke Meter/Centimeter) |
-| Anggota 3 | Nadilla Sri Ambarwati       | Konversi Berat (Kilogram ke Gram/Pons)         |
-| Anggota 4 | Rhesiana Putri Dewi         | Konversi Waktu (Jam ke Menit/Detik)            |
-| Anggota 5 | Michael Sin                 | Tampilan UI & antarmuka menu                   |
+| Peran     | Nama                            | Tugas                                          |
+| --------- | ------------------------------- | ---------------------------------------------- |
+| Ketua     | Ahmad Faiq Zidane     (2502542) | Setup repo, menu utama & struktur main.c       |
+| Anggota 1 | Rhesiana Putri Dewi   (2504374) | Konversi Suhu (Celcius ke Fahrenheit/Kelvin)   |
+| Anggota 2 | Nadilla Sri Ambarwati (2501637) | Konversi Jarak (Kilometer ke Meter/Centimeter) |
+| Anggota 3 | Haikal Kamil                    | Konversi Berat (Kilogram ke Gram/Pons)         |
+| Anggota 4 | Muhammad Ikhsan Akbar           | Konversi Waktu (Jam ke Menit/Detik)            |
+| Anggota 5 | Michael Sin                     | Tampilan UI & antarmuka menu                   |
 
 ---
 
