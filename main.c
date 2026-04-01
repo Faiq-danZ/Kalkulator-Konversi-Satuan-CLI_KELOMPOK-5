@@ -34,3 +34,20 @@ int main() {
 
     return 0;
 }
+
+//fitur tampilan menu
+void tampilkan_menu() {
+    system("clear || cls");
+    printf("\n");
+    printf("  ╔══════════════════════════════════════╗\n");
+    printf("  ║     KALKULATOR KONVERSI SATUAN       ║\n"); 
+    printf("  ║        Kelompok Mekatronika AI       ║\n");
+    printf("  ╠══════════════════════════════════════╣\n");
+    printf("  ║  [1]  Konversi Suhu                  ║\n");
+    printf("  ║  [2]  Konversi Jarak                 ║\n");
+    printf("  ║  [3]  Konversi Berat                 ║\n");
+    printf("  ║  [4]  Konversi Waktu                 ║\n");
+    printf("  ║  [0]  Keluar                         ║\n");
+    printf("  ╚══════════════════════════════════════╝\n");
+    printf("\n");
+}
