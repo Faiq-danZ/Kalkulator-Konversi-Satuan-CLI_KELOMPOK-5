@@ -7,7 +7,7 @@ void konversi_berat();
 void konversi_waktu();
 void tampilkan_menu();
 
-int main() {
+int main() { //bagian faiq
     int pilihan;
 
     while (1) {
@@ -33,4 +33,44 @@ int main() {
     }
 
     return 0;
+}
+
+void konversi_berat() {
+    double kilogram, gram, pons;
+    int pilihan;
+
+    system("clear || cls");
+    printf("\n  -- KONVERSI BERAT -────────────────────\n");
+    printf("  Masukkan berat dalam Kilogram: ");
+    scanf("%lf", &kilogram);
+
+    printf("\n  Konversi ke:\n");
+    printf("  [1]  Gram\n");
+    printf("  [2]  Pons\n");
+    printf("  [3]  Keduanya\n");
+    printf("\n  Pilihan: ");
+    scanf("%d", &pilihan);
+
+    printf("\n  -- HASIL ──────────────────────────────\n");
+
+    switch (pilihan) {
+        case 1:
+            gram = kilogram * 1000;
+            printf("  %.2f kg  =  %.2f g\n", kilogram, gram);
+            break;
+        case 2:
+            pons = kilogram * 2.20462;
+            printf("  %.2f kg  =  %.2f pons\n", kilogram, pons);
+            break;
+        case 3:
+            gram = kilogram * 1000;
+            pons = kilogram * 2.20462;
+            printf("  %.2f kg  =  %.2f g\n", kilogram, gram);
+            printf("  %.2f kg  =  %.2f pons\n", kilogram, pons);
+            break;
+        default:
+            printf("  [!] Pilihan tidak valid.\n");
+    }
+
+    printf("  ───────────────────────────────────────\n");
 }

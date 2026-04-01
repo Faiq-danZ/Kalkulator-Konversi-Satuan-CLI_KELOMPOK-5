@@ -89,5 +89,5 @@ Kalkulator-Konversi-Satuan-CLI_KELOMPOK-5/
 
 ---
 
-Proyek ini dibuat sebagai tugas mata kuliah pemrograman.
+Proyek ini dibuat sebagai tugas mata Literasi Digital.
 Program Studi Mekatronika & Kecerdasan Buatan — UPI Purwakarta.
