@@ -34,3 +34,45 @@ int main() {
 
     return 0;
 }
+
+//Fitur Konversi Suhu (Rhesiana Putri Dewi)
+
+void konversi_suhu() { 
+    double celcius, fahrenheit, kelvin; 
+    int pilihan; 
+ 
+    system("clear || cls"); 
+    printf("\n  ── KONVERSI SUHU ──────────────────────\n"); 
+    printf("  Masukkan suhu dalam Celcius: "); 
+    scanf("%lf", &celcius); 
+ 
+    printf("\n  Konversi ke:\n"); 
+    printf("  [1]  Fahrenheit\n"); 
+    printf("  [2]  Kelvin\n"); 
+    printf("  [3]  Keduanya\n"); 
+    printf("\n  Pilihan: "); 
+    scanf("%d", &pilihan); 
+ 
+    printf("\n  ── HASIL ──────────────────────────────\n"); 
+ 
+    switch (pilihan) { 
+        case 1: 
+            fahrenheit = (celcius * 9.0 / 5.0) + 32; 
+            printf("  %.2f C  =  %.2f F\n", celcius, fahrenheit); 
+            break; 
+        case 2: 
+            kelvin = celcius + 273.15; 
+            printf("  %.2f C  =  %.2f K\n", celcius, kelvin); 
+            break; 
+        case 3: 
+            fahrenheit = (celcius * 9.0 / 5.0) + 32; 
+            kelvin = celcius + 273.15; 
+            printf("  %.2f C  =  %.2f F\n", celcius, fahrenheit); 
+            printf("  %.2f C  =  %.2f K\n", celcius, kelvin); 
+            break; 
+        default: 
+            printf("  [!] Pilihan tidak valid.\n"); 
+    } 
+ 
+    printf("  ───────────────────────────────────────\n"); 
+} 
